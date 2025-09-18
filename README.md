@@ -30,7 +30,7 @@ target 'DemoApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod ‘VRPaymentSdk’, '1.5.0'
+  pod ‘VRPaymentSdk’, '1.5.1'
 
   target 'DemoAppTests' do
     inherit! :search_paths
@@ -41,7 +41,7 @@ end
 
 #### From GitHub repository
 
-`pod 'VRPaymentSdk', '1.5.0', :source=> 'https://github.com/vr-payment/ios-mobile-sdk.git'`
+`pod 'VRPaymentSdk', '1.5.1', :source=> 'https://github.com/vr-payment/ios-mobile-sdk.git'`
 
 and
 
@@ -52,7 +52,7 @@ target 'DemoApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'VRPaymentSdk', '1.5.0', :source => 'https://github.com/vr-payment/ios-mobile-sdk.git'
+  pod 'VRPaymentSdk', '1.5.1', :source => 'https://github.com/vr-payment/ios-mobile-sdk.git'
   pod 'PaymentResources', '6.0.0'
 
   target 'DemoAppTests' do

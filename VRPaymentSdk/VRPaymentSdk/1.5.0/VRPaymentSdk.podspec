@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = "VRPaymentSdk"
   s.module_name  = "VRPaymentSdk"
-  s.version      = "1.5.1"
+  s.version      = "1.5.0"
   s.summary      = "Official VR Payment SDK to access different payment methods."
   s.license      = { :type => 'Apache License, Version 2.0', :file => 'LICENSE'}
   s.author       = "wallee AG"
-  s.homepage     = "https://github.com/vr-payment/ios-mobile-sdk"
-  s.source       = { :git => "https://github.com/vr-payment/ios-mobile-sdk.git", :tag => "1.5.1" }
+  s.homepage     = "https://github.com/WhiteLabelGithubOwnerName/ios-msdk-vr-payment-staging"
+  s.source       = { :git => "https://github.com/WhiteLabelGithubOwnerName/ios-msdk-vr-payment-staging.git", :tag => "1.5.0" }
   s.vendored_frameworks = "VRPaymentSdk.xcframework"
   s.resource_bundles = { "VRPayment" => "vrpaymentsdkbundle.jsbundle" }
   s.platform = :ios
